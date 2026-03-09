@@ -1,4 +1,4 @@
-import { action, mutation, query } from "./_generated/server";
+import { action, mutation, query, internalMutation } from "./_generated/server";
 import { v } from "convex/values";
 import { internal } from "./_generated/api";
 
@@ -90,7 +90,7 @@ Return ONLY valid JSON array. No markdown fences.`;
 /**
  * Save a question to the database (internal mutation).
  */
-export const saveQuestion = mutation({
+export const saveQuestion = internalMutation({
     args: {
         userId: v.string(),
         category: v.union(

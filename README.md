@@ -1,10 +1,14 @@
-# {{APP_NAME}}
+# BrainIQ
 
-{{APP_DESCRIPTION}}
+[![CI](https://github.com/mxn2020/brainiq/actions/workflows/ci.yml/badge.svg)](https://github.com/mxn2020/brainiq/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+AI-powered IQ trainer — multiple-choice questions across 5 categories (pattern, verbal, numerical, spatial, logic), timed IQ tests, scoring, and progress tracking.
 
 ## Tech Stack
 - **Frontend**: Vite + React + TypeScript
 - **Styling**: Vanilla CSS (dark theme design system)
+- **UI Library**: @geenius-ui/react-css
 - **Backend**: Convex (Serverless)
 - **Auth**: Convex Auth (email/password)
 - **Payments**: Stripe (subscriptions)
@@ -40,9 +44,6 @@ npx convex env set STRIPE_SECRET_KEY rk_live_xxxxx
 npx convex env set STRIPE_WEBHOOK_SECRET whsec_xxxxx
 ```
 
-### 4. Seed Prompts
-Open the Convex dashboard and run `prompts:seedPrompts`.
-
 ## Folder Structure
 
 ```
@@ -51,7 +52,7 @@ web/
 ├── src/
 │   ├── components/   # Shared UI components
 │   ├── pages/        # Route pages
-│   ├── test/         # Test setup
+│   ├── i18n/         # Internationalization
 │   ├── App.tsx       # Router + routes
 │   ├── main.tsx      # Entry point + providers
 │   └── index.css     # Design system

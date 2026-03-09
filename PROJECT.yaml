@@ -1,0 +1,14 @@
+name: brainiq
+description: AI-powered IQ trainer with multiple-choice questions across 5 categories, timed tests, scoring, and progress tracking
+type: application
+priority: medium
+status: active
+tags:
+  - ai
+  - iq-trainer
+  - quiz
+  - gamification
+  - convex
+owner: mxn2020
+repository: https://github.com/mxn2020/brainiq
+deploy_url: null

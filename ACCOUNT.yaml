@@ -1,0 +1,12 @@
+services:
+  convex:
+    project: brainiq
+  vercel:
+    project: brainiq
+  stripe:
+    mode: live
+  nvidia:
+    api: nvidia-nims
+  github:
+    owner: mxn2020
+    repo: brainiq

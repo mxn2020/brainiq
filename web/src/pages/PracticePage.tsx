@@ -3,7 +3,7 @@ import { useAction, useMutation, useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { useSearchParams } from "react-router-dom";
 import { Brain, CheckCircle, XCircle, Loader2, ArrowRight } from "lucide-react";
-import { Id } from "../../convex/_generated/dataModel";
+type Id<T extends string> = string & { __tableName: T };
 
 type Category = "pattern" | "verbal" | "numerical" | "spatial" | "logic";
 

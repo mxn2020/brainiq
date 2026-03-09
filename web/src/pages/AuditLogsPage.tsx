@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useQuery } from 'convex/react'
 import { api } from '../../convex/_generated/api'
 import { SkeletonList } from '../components/Skeleton'
-import { Select } from '../components/ui/Select'
+import { Select } from '@geenius-ui/react-css'
 
 export default function AuditLogsPage() {
     const [category, setCategory] = useState<string>('')

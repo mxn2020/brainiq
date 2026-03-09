@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { useMutation, useQuery } from 'convex/react'
 import { api } from '../../convex/_generated/api'
 import { SkeletonCard } from '../components/Skeleton'
-import { Select } from '../components/ui/Select'
-import { Textarea } from '../components/ui/Textarea'
+import { Select, Textarea } from '@geenius-ui/react-css'
 
 export default function AdminPage() {
     const prompts = useQuery(api.prompts.getPrompts)

@@ -287,10 +287,10 @@ export async function generateVideo(prompt: string): Promise<string> {
     return "https://www.w3schools.com/html/mov_bbb.mp4"; // Return a dummy video URL
 }
 
-import { action } from "./_generated/server";
+import { action, internalAction } from "./_generated/server";
 import { v } from "convex/values";
 
-export const callModel = action({
+export const callModel = internalAction({
     args: {
         model: v.string(),
         messages: v.any(), // array of objects

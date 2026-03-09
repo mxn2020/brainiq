@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useAction, useMutation, useQuery } from "convex/react";
 import { useNavigate } from "react-router-dom";
 import { api } from "../../convex/_generated/api";
-import { Id } from "../../convex/_generated/dataModel";
+type Id<T extends string> = string & { __tableName: T };
 import { Clock, Brain, Loader2 } from "lucide-react";
 
 const CATEGORIES = ["pattern", "verbal", "numerical", "spatial", "logic"] as const;

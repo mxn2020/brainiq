@@ -17,8 +17,11 @@ import type * as modelCosts from "../modelCosts.js";
 import type * as modelTests from "../modelTests.js";
 import type * as nvidia from "../nvidia.js";
 import type * as prompts from "../prompts.js";
+import type * as questions from "../questions.js";
 import type * as rateLimit from "../rateLimit.js";
 import type * as stripe from "../stripe.js";
+import type * as stripeAdmin from "../stripeAdmin.js";
+import type * as tests from "../tests.js";
 import type * as usageLimits from "../usageLimits.js";
 import type * as users from "../users.js";
 
@@ -38,8 +41,11 @@ declare const fullApi: ApiFromModules<{
   modelTests: typeof modelTests;
   nvidia: typeof nvidia;
   prompts: typeof prompts;
+  questions: typeof questions;
   rateLimit: typeof rateLimit;
   stripe: typeof stripe;
+  stripeAdmin: typeof stripeAdmin;
+  tests: typeof tests;
   usageLimits: typeof usageLimits;
   users: typeof users;
 }>;
