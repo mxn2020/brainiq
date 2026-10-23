@@ -5,7 +5,7 @@
   "type": "module",
   "description": "AI-powered IQ trainer with multiple-choice questions, timed tests, scoring, and progress tracking",
   "author": "Mehdi Nabhani <mehdi@geenius.app>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mxn2020/brainiq.git"

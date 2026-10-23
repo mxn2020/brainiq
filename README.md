@@ -1,7 +1,7 @@
 # BrainIQ
 
 [![CI](https://github.com/mxn2020/brainiq/actions/workflows/ci.yml/badge.svg)](https://github.com/mxn2020/brainiq/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 
 AI-powered IQ trainer — multiple-choice questions across 5 categories (pattern, verbal, numerical, spatial, logic), timed IQ tests, scoring, and progress tracking.
 
@@ -59,3 +59,7 @@ web/
 ├── scripts/          # Stripe & utility scripts
 └── ...configs
 ```
+
+---
+
+> **License note:** As of 2026-10-23 this project is licensed under the Apache License 2.0 (previously MIT). Versions released before this change remain available under MIT to those who received them.
